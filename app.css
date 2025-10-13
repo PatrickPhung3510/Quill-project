@@ -45,6 +45,10 @@ Black #000000 (Black)
 
 4px / 8px / 20px
 
+---------- Spacing System ----------
+
+5px / 10px / 15px / 20px / 25px / 30px/ 40px / 50px / 60px / 70px / 80px / 90px / 100px / 125px / 150px / 200px / 250px / 300px / 400px / 500px 
+
 */
 
 /* -------------- Global Styles -------------- */
@@ -178,16 +182,36 @@ ul {
 
 /* -------------- Sections -------------- */
 
+/* ------ Navbar ------ */
+
+.navbar {
+    margin-bottom: 200px;
+}
+
 /* ------ Hero Section ------ */
 
 .hero-section {
     text-align: center;
+    margin-bottom: 300px;
+}
+
+.hero-heading {
+    margin-bottom: 10px;
+}
+
+.hero-paragraph {
+    margin-bottom: 50px;
 }
 
 /* ------ Feature Section ------ */
 
+.features-section {
+    margin-bottom: 300px;
+}
+
 .features-main-heading {
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .feature-img {
@@ -198,6 +222,7 @@ ul {
 
 .cta-section {
     text-align: center;
+    margin-bottom: 300px;
 }
 
 .cta-card {
