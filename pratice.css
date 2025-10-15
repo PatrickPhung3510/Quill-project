@@ -1,0 +1,17 @@
+.inline-element {
+    background-color: lightgreen;
+    height: 400px;
+    width: 400px;
+    padding: 100px 100px;
+    border: 20px solid red;
+    margin: 100px 100px;
+    
+}
+
+.replaced-inline-element {
+    width: 400px;
+    height: 50px;
+    padding: 100px 100px;
+    border: 10px solid green;
+    margin: 50px 50px;
+}
