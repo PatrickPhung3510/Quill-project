@@ -248,6 +248,8 @@ span {
 
 .navbar {
     height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ------ Hero Section ------ */
@@ -310,7 +312,8 @@ span {
 /* ------ Footer ------ */
 
 .footer {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .social-icons {
