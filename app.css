@@ -250,6 +250,7 @@ span {
     height: var(--nav-height);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* ------ Hero Section ------ */
@@ -314,6 +315,7 @@ span {
 .footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .social-icons {
