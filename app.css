@@ -158,6 +158,10 @@ a {
     display: inline-block;
 }
 
+a:link, a:visited, a:hover, a:active {
+    color: var(--grey-base);
+}
+
 ul {
     list-style: none;
 }
@@ -304,6 +308,11 @@ span {
     align-items: center;
 }
 
+.feature-img-swap-order {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
 .feature-headings {
     margin-bottom: 2rem;
 }
@@ -332,6 +341,7 @@ span {
 
 .cta-heading {
     margin-bottom: 3rem;
+    color: var(--white);
 }
 
 /* ------ Footer ------ */
@@ -355,4 +365,8 @@ span {
 
 .social-icons {
     width: 20px;
+}
+
+.heart-icon {
+    color: var(--secondary-base);
 }
